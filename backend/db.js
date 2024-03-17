@@ -5,6 +5,10 @@ const todoSchema= new mongoose.Schema({
     completed : {
               type: Boolean,
             default: false
+    },
+    isEditing: {
+      type: Boolean,
+      default: false
     }
 
 })
